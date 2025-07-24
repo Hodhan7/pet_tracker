@@ -1,0 +1,89 @@
+# PHP specific files
+*.log
+*.tmp
+*.temp
+*.cache
+
+# Database configuration (if you have separate config files)
+config/database.php
+.env
+.env.local
+.env.production
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Node.js dependencies (for any frontend tooling)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Composer dependencies (if using Composer)
+vendor/
+composer.lock
+
+# Build and compilation files
+dist/
+build/
+*.min.css
+*.min.js
+
+# Uploads and user-generated content
+uploads/
+files/
+images/user_uploads/
+documents/
+
+# Session files (if using file-based sessions)
+sessions/
+tmp/sessions/
+
+# Cache directories
+cache/
+storage/cache/
+storage/logs/
+storage/tmp/
+
+# Backup files
+*.bak
+*.backup
+*.sql.backup
+backup/
+backups/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Security sensitive files
+*.key
+*.pem
+*.cert
+secrets/
+
+# Test files and coverage reports
+phpunit.xml
+.phpunit.result.cache
+coverage/
+tests/_output/
+
+# WordPress specific (if applicable)
+wp-config.php
+wp-content/uploads/
+
+# Local development files
+.htaccess.local
+robots.txt.local

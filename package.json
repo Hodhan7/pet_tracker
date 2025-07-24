@@ -1,0 +1,12 @@
+{
+  "name": "pet-health-tracker",
+  "version": "1.0.0",
+  "scripts": {
+    "build-css": "tailwindcss -i ./input.css -o ./css/tailwind.css --watch",
+    "build": "tailwindcss -i ./input.css -o ./css/tailwind.css"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.1.11",
+    "@tailwindcss/cli": "^4.1.11"
+  }
+}
